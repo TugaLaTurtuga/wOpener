@@ -15,8 +15,8 @@ A reminder app that sends a notification as well as opening an app or website
 ##### EX:
 ```json
 "task_name": {
-  "time": "6:00pm, 19:00", <- this will send notifications at 6pm and 7pm
-  "dayOfWeek": "1, 3, 5" <- this will send notifications on mondays, wednesdays and fridays
+  "time": "6:00pm, 19:00", -> this will send notifications at 6pm and 7pm
+  "dayOfWeek": "1, 3, 5" -> this will send notifications on mondays, wednesdays and fridays
 }
 ```
 
