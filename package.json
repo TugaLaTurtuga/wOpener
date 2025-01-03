@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node app/main.js",
     "startWithOS": "pm2 start app/main.js --name wOpener && pm2 save && pm2 startup",
+    "reloadStartWithOS": "pm2 kill && pm2 start app/main.js --name wOpener && pm2 save && pm2 startup",
     "deleteAllpm2Instances": "pm2 kill",
     "stopStartWithOS": "pm2 stop app/main.js --name wOpener"
   },
