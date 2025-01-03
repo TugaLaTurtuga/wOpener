@@ -1,0 +1,54 @@
+
+{
+    "tasks": {
+        "keyboard practice": {
+            "title": "Typping Practice!",
+            "description": "train for at least 15min",
+            "website": "https://monkeytype.com/",
+            "time": "19:15",
+            
+            "timer": "15",
+            "timerMessage": "Don't forget to stop being stupid"
+        },
+        "leetcode": {
+            "title": "LeetCode Practice! (1 hour)",
+            "description": "Solve problem",
+            "website": "https://neetcode.io/roadmap",
+
+            "time": "20:30",
+            "dayOfWeek": "6, 7",
+            
+            "timer": "60",
+            "timerMessage": "can't even solve 1 problem 💀"
+        },
+        "REMINDER": {
+            "description": "Just a reminder that you're an Idiot",
+            "time": "7:00PM",
+            
+            "withSound": true
+        }
+    },
+
+    "COMMENTS": {
+        "comment": "you can have on the time, day, dayOfWeek and month, add more than one variable",
+        "ex to the comment 1": "'time': '6:00pm, 19:00' <- this will send notifications at 6pm and 7pm",
+        "ex to the comment 2": "'dayOfWeek': '1, 3, 5' <- this will send notifications on mondays, wednesdays and fridays",
+
+        "title": "[ str ] The notification title (if it doesn't have it, it will be the task name)",
+        "description": "[ str ]The notification description",
+
+        "time": " [ 24-hour format or 12-hour format  (DEFAULT: 6pm) ] Time of the notification",
+
+        "day": "[ 1 - 31 ] Day of the notification",
+        "month": "[ 1 - 12 ] Month of the notification",
+        "dayOfWeek": "[ 0 - 7 (0 or 7 is Sun, can also be 'weekends' or 'business days') ( DEFAULT: every day ) ] Day of the week of the notification",
+
+        "website": "[ website url ] Opens the website",
+        "app": "[ app name ] Opens the app",
+
+        "timer": "[ float (min) ; float:float (min:sec) ( DEFAULT: none ) ] A timer (at the end it sends a notification) ",
+        "timerDescription": "[ str ] the notification timer description",
+
+        "withSound": "[ true ; false ( DEFAULT: true ) ] Plays the default sound when the notification appears"
+    }
+}

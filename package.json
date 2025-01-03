@@ -1,0 +1,28 @@
+{
+  "name": "wOpener",
+  "version": "1.0.0",
+  "description": "A script to open a website or app at a specific time",
+  "main": "app/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://tugalaturtuga.github.io/home/"
+  },
+  "scripts": {
+    "start": "node app/main.js",
+    "startWithOS": "pm2 start app/main.js --name wOpener && pm2 save && pm2 startup",
+    "stopStartWithOS": "pm2 stop app/main.js --name wOpener"
+  },
+  "keywords": [
+    "scheduler",
+    "website-opener",
+    "wOpener",
+    "automation"
+  ],
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "node-schedule": "^2.1.1",
+    "terminal-notifier": "^0.1.2"
+  },
+  "author": "Tuga La Turtuga",
+  "license": "none"
+}
