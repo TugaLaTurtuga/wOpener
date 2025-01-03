@@ -4,7 +4,7 @@ A reminder app that sends a notification as well as opening an app or website
 ## npm commands
 - #### 'npm start' -> starts the program
 - #### 'npm run startWithOS' -> makes the program start on startup
-- #### 'npm run reloadStartWithOS' -> updates the program
+- #### 'npm run reloadStartWithOS' -> reloads the program
 - #### 'npm run stopStartWithOS' -> makes the program not start on startup
 - #### 'npm run deleteAllpm2Instances' -> deletes all instances of the program
 
