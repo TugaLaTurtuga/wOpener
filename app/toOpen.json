@@ -1,32 +1,7 @@
 
 {
     "tasks": {
-        "keyboard practice": {
-            "title": "Typping Practice!",
-            "description": "train for at least 15min",
-            "website": "https://monkeytype.com/",
-            "time": "19:15",
-            
-            "timer": "15",
-            "timerMessage": "Don't forget to stop being stupid"
-        },
-        "leetcode": {
-            "title": "LeetCode Practice! (1 hour)",
-            "description": "Solve problem",
-            "website": "https://neetcode.io/roadmap",
 
-            "time": "20:30",
-            "dayOfWeek": "6, 7",
-            
-            "timer": "60",
-            "timerMessage": "can't even solve 1 problem 💀"
-        },
-        "REMINDER": {
-            "description": "Just a reminder that you're an Idiot",
-            "time": "7:00PM",
-            
-            "withSound": true
-        }
     },
 
     "COMMENTS": {
