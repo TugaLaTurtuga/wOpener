@@ -19,7 +19,7 @@ A reminder app that sends a notification as well as opening an app or website
 }
 ```
 
-#### All commands exepted from [app/toOpen.json](https://github.com/TugaLaTurtuga/wOpener/blob/main/app/toOpen.json "toOpen.json"):
+#### All commands accepted from [app/toOpen.json](https://github.com/TugaLaTurtuga/wOpener/blob/main/app/toOpen.json "toOpen.json"):
 
 ```json
 "title": "[ str ] The notification title (if it doesn't have it, it will be the task name)",
