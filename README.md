@@ -4,8 +4,9 @@ A reminder app that sends a notification as well as opening an app or website
 ## npm commands
 - #### 'npm start' -> starts the program
 - #### 'npm run startWithOS' -> makes the program start on startup
+- #### 'npm run reloadStartWithOS' -> updates the program
 - #### 'npm run stopStartWithOS' -> makes the program not start on startup
-- #### 'npm run deleteAllpm2Instances' -> in case of an update, this will delete all the app instances
+- #### 'npm run deleteAllpm2Instances' -> deletes all instances of the program
 
 ## [app/toOpen.json](https://github.com/TugaLaTurtuga/wOpener/blob/main/app/toOpen.json "app/toOpen.json")
 - ##### This is the file where you put your 'tasks', aka reminderes.
