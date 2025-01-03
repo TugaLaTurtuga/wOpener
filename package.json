@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node app/main.js",
-    "startWithOS": "pm2 start app/main.js --name wOpener && pm2 save && pm2 startup",
+    "startWithOS": "pm2 start app/main.js -f --name wOpener && pm2 save && pm2 startup",
+    "deleteAllpm2Instances": "pm2 kill",
     "stopStartWithOS": "pm2 stop app/main.js --name wOpener"
   },
   "keywords": [
