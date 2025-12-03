@@ -42,4 +42,3 @@ A reminder app that sends a notification as well as opening an app or website
 ```
 
 ##### © 2025 TugaLaTurtuga, Inc
-(jk)
